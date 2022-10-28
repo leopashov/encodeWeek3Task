@@ -31,6 +31,8 @@ async function main() {
     const acc1VoteTx = await ballotInstance.connect(acc1).vote(2, acc1VotePower.div(2));
     acc1VoteTx.wait(); 
 
+    const signerRemainingVotePower = 
+
 }
 
 main().catch((error) => {
