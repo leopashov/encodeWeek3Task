@@ -13,3 +13,4 @@ Week3 weekend project
 5. Vote
    a. Tx hashes: 0x6cd659fd6efed793bcab0484e242142e8f05832df756ebfba6b30239af500e29, 0xdef88d0e17225b58b65f7623a94c452da05425b6df60124eb86a51a37f028989
    Script says vote using half of each voting power but the script was run > twice therefore almost all voting power 98.4375% was used. I believe this is not 100% due to the rounding errors, but (10^18)/2 should resolve fine so I don’t see where the rounding occurs?
+# Eth_Lisbon
